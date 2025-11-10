@@ -1,0 +1,28 @@
+:root{
+  --primary:#14B8C4;
+  --bg:#f5f7fa;
+  --text:#1f2933;
+}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+.hero{
+  padding:4rem 1.5rem;
+  text-align:center;
+  background:white;
+}
+.section{
+  padding:3rem 1.5rem;
+}
+.btn{
+  display:inline-block;
+  margin-top:1rem;
+  background:var(--primary);
+  color:white;
+  padding:.7rem 1.2rem;
+  border-radius:8px;
+  text-decoration:none;
+}
