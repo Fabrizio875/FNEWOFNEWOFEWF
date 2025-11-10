@@ -4,17 +4,12 @@
   <meta charset="UTF-8">
   <title>AliviaTech – Panel del paciente</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- fuentes -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
     rel="stylesheet">
-  <!-- 👇 subir 2 niveles: patient → pages → public -->
   <link rel="stylesheet" href="../../assets/styles/styles.css">
 </head>
 <body class="layout layout-paciente">
-  <!-- SIDEBAR -->
   <aside class="sidebar">
     <div class="doctor-card">
       <img src="https://i.pravatar.cc/80?img=12" alt="Paciente" class="doctor-avatar">
@@ -31,7 +26,6 @@
     </nav>
   </aside>
 
-  <!-- MAIN -->
   <div class="main-area">
     <header class="topbar">
       <h1>Tu bienestar hoy</h1>
@@ -39,7 +33,6 @@
     </header>
 
     <main class="content">
-      <!-- KPIs -->
       <section class="kpi-row">
         <div class="kpi-card kpi-green">
           <h3>Calma</h3>
@@ -55,7 +48,6 @@
         </div>
       </section>
 
-      <!-- Última medición -->
       <section class="card">
         <h2 class="card-title">Última medición</h2>
         <p>Ritmo cardíaco: <strong>74 ppm</strong></p>
@@ -64,7 +56,6 @@
         <button class="btn-secondary">Iniciar ejercicio guiado</button>
       </section>
 
-      <!-- Historial rápido -->
       <section class="card">
         <h2 class="card-title">Historial de estados</h2>
         <p class="muted">Últimos 5 registros</p>
@@ -76,7 +67,6 @@
         </ul>
       </section>
 
-      <!-- Recomendaciones -->
       <section class="card">
         <h2 class="card-title">Recomendaciones para ti</h2>
         <div class="card-grid">
@@ -95,7 +85,6 @@
     </main>
   </div>
 
-  <!-- 👇 subir 2 niveles también -->
   <script src="../../assets/scripts/main.js"></script>
 </body>
 </html>
