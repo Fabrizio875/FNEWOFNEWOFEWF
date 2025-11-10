@@ -7,11 +7,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap"
     rel="stylesheet">
-  <!-- 👇 desde /pages/psychologist/ hasta /public/assets/... -->
   <link rel="stylesheet" href="../../assets/styles/styles.css">
 </head>
 <body class="layout">
-  <!-- SIDEBAR -->
   <aside class="sidebar">
     <div class="doctor-card">
       <img src="https://i.pravatar.cc/80?img=3" alt="Doctor" class="doctor-avatar">
@@ -28,7 +26,6 @@
     </nav>
   </aside>
 
-  <!-- MAIN -->
   <div class="main-area">
     <header class="topbar">
       <div class="search-box">
@@ -47,7 +44,6 @@
         <button class="btn-primary">+ Nuevo paciente</button>
       </div>
 
-      <!-- KPIs -->
       <section class="kpi-row">
         <div class="kpi-card kpi-green">
           <h3>5</h3>
@@ -67,7 +63,6 @@
         </div>
       </section>
 
-      <!-- TABLA -->
       <section class="card">
         <h2 class="card-title">Pacientes</h2>
         <div class="table-wrapper">
@@ -89,10 +84,7 @@
                 <td>2025-11-09</td>
                 <td>95ppm</td>
                 <td><span class="pill pill-success">Activo</span></td>
-                <td>
-                    <button class="btn-outline">Ver</button>
-                    <button class="btn-outline">Plan</button>
-                </td>
+                <td><button class="btn-outline">Ver</button></td>
               </tr>
               <tr>
                 <td>Ana Martínez</td>
@@ -100,10 +92,7 @@
                 <td>2025-11-08</td>
                 <td>65ppm</td>
                 <td><span class="pill pill-success">Activo</span></td>
-                <td>
-                    <button class="btn-outline">Ver</button>
-                    <button class="btn-outline">Plan</button>
-                </td>
+                <td><button class="btn-outline">Ver</button></td>
               </tr>
               <tr>
                 <td>Carlos Torres</td>
@@ -111,24 +100,11 @@
                 <td>2025-11-07</td>
                 <td>78ppm</td>
                 <td><span class="pill pill-muted">En pausa</span></td>
-                <td>
-                    <button class="btn-outline">Ver</button>
-                    <button class="btn-outline">Plan</button>
-                </td>
+                <td><button class="btn-outline">Ver</button></td>
               </tr>
             </tbody>
           </table>
         </div>
-      </section>
-
-      <!-- RECOMENDACIONES -->
-      <section class="card">
-        <h2 class="card-title">Recomendaciones pendientes</h2>
-        <p class="muted">Completa los protocolos para los pacientes con ansiedad alta.</p>
-        <ul>
-          <li>• Ana Martínez – actualizar ejercicios de respiración</li>
-          <li>• Luis García – registrar sesión post-crisis</li>
-        </ul>
       </section>
     </main>
   </div>
@@ -136,3 +112,4 @@
   <script src="../../assets/scripts/main.js"></script>
 </body>
 </html>
+
